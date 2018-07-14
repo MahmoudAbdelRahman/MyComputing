@@ -1,5 +1,14 @@
+"""
+Ifcopenshell Example by by: Mahmoud M. Abdelrahman
+<arch.mahmoud.ouf111[at]gmail.com>
+Copyright (c) 2018, Mahmoud AbdelRahman
+All rights reserved.
+https://github.com/MahmoudAbdelRahman/Scientific-computing/edit/master/ifcTreeRecursion/GetEntityTree.py
+"""
+
 import ifcopenshell
 #Note : PyIfcOpenShell is required.
+
 
 
 def getEntitiesTree(ParentIntity, round=-1, element=None, gt=None, printIt=True, text=None):
